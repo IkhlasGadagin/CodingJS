@@ -10,7 +10,7 @@ const MemoCom = () => {
     
     }
     
-    console.log(calculation(56));
+    // console.log(calculation(56));
     
   return (
     <div>
