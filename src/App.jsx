@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Home from "./components/Home";
+import Debounce from './components/Debounce';
 
 const Names = ({ count }) => {
   return (
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
       <Home />
+      <Debounce className="bg-red-500"/>
       <Names count={count} />
       <div className="min-h-screen bg-gray-100 p-8">
         <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
