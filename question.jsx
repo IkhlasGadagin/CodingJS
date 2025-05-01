@@ -15,7 +15,12 @@ function reverseFunction(str){
 console.log(reverseFunction("moM"));
 
 
+//Find the Longest Word in a String
 
+function longestWord(str){
+    const words = str.split(" ");
+    const longestword= words.reduce((cur,acc)=>cur.length>acc.length?cur:acc,"");
+    return longestword;
+}
 
-
-
+console.log(longestWord("The quick brown fox jumps over the lazy dog"));
